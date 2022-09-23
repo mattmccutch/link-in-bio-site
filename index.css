@@ -3,8 +3,55 @@ html {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
+    background-color: lightcoral;
+    color: lavenderblush;
 }
 
-h1 {
-    color: #ff5000;
+header {
+    margin-top: 1em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header>h1 {
+    font-size: 50px
+}
+
+#productsDiv {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#productsDiv>ul {
+    list-style-type: none;
+}
+
+#productsDiv>ul>li {
+    margin: 50px;
+    background-color: lightsalmon;
+}
+
+.checkoutDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.checkoutDiv>h2 {
+    align-items: center;
+}
+
+.checkoutDiv>a {
+    left: 200px;
+}
+
+footer {
+    margin: 50px;
+    text-align: center;
 }
